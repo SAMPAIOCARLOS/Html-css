@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    background-color: rgb(36, 35, 35);
+}
+h1{
+    font-size: 60px;
+    color: white;
+}
+button{
+    background-color: cyan;
+    color: black;
+}

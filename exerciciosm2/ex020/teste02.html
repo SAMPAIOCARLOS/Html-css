@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>segundo teste</title>
+    <style>
+        div{
+            background-color: aquamarine;
+            width: 200px;
+            height: 150px;
+            border: 1px solid;
+            display: inline-block;
+        }
+
+        div:hover{
+            color: blue;
+            background-color: darkslateblue;
+            font-size: 20px;
+        }
+        div > p{
+            display: none;
+            color: darkgoldenrod;
+            background-color: azure;
+        }
+        div:hover > p{
+            display: block;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: black;
+            font-weight: bolder;
+        }
+
+        a:visited{
+            color: blueviolet;
+        }
+        a:active{
+            color: gold;
+            background-color: lightslategray;
+        }
+        .gustavo::after{
+            content: '🤫';
+        }
+        .gustavo::before{
+            content: '🙄';
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>teste01</div>
+    <a href="teste.html" rel="prev">
+        <div>teste02
+            <p>do bs</p>
+        </div>
+    </a>
+    <div>teste03</div>
+<br>
+    <a href="https://gustavoguanabara.github.io" class="gustavo">curso do gustavo guanabara</a>
+    
+
+
+</body>
+</html>

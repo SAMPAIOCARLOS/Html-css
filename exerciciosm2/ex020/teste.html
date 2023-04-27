@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <style> /* isso tudo é minha pratica caso vc não saiba mais, veja o video do guanabara novamente video sobre pseudo class*/
+
+  div{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+  }
+  div:hover{
+      background-color: hwb(0 0% 100% / 0.459);
+  }
+
+div >p{
+    display: none;
+}
+div:hover >p{
+    color: gold;
+    display: block;
+}
+
+    </style>
+</head>
+<body>
+    <div>negão
+
+        <p>é aqui mesmo</p>
+    </div>
+    
+</body>
+</html>

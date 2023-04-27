@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tamanhos de img</title>
+</head>
+<body>
+    <h1>diferenças dos tamanhos de imagens</h1>
+    <p>vejamos um exemplo</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-g.png" type="image/png">
+         <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-p.png" alt="foto grande">
+    </picture>
+<br>  <!--exemplo das alterações do tamanho de imagens-->  <!--disponivel também exemplos no material de apoio cap11-->
+<br>
+<br>
+<hr>   
+<br>
+    <picture>
+<source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+<source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto grande">
+    </picture>
+
+    <h1>reproduzindo</h1> 
+    <p>vamos aprender a reproduzir áudios em HTML5</p>
+    <!--<audio src="midia/happy-mistake.mp3" controls autoplay></audio> exemplo de como botar um audio-->
+    <audio preload="metadata" autoplay controls loop>
+
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+
+        <p>infelismente essa sua porcaria de navegador não consegue carregar o audio <a href="midia/guanacast-33.mp3">clique aqui par baixar o arquivo</a></p>  <!--outro exemplo de como botar um audio-->
+        
+    </audio>
+
+</body>
+</html>

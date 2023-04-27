@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto.exe</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .btn {
+  background-color: #4CAF50; /* cor de fundo */
+  border: none; /* sem borda */
+  color: white; /* cor do texto */
+  padding: 12px 24px; /* preenchimento interno */
+  text-align: center; /* alinhamento do texto */
+  text-decoration: none; /* sem decoração de texto */
+  display: inline-block; /* exibição em linha */
+  font-size: 16px; /* tamanho da fonte */
+  margin: 10px 20px; /* margem */
+  cursor: pointer; /* cursor de mouse */
+  position: relative; /* posição relativa */
+  overflow: hidden; /* ocultar o conteúdo que excede */
+}
+
+.btn-animation:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.5s ease-out;
+}
+
+.btn-animation:hover:before {
+  opacity: 1;
+  width: 200%;
+  height: 200%;
+}
+
+    </style>
+</head>
+<body>
+    <h1>VIDEOS DE GIGA CHAD</h1>
+    <nav>
+    <a href="outras-paginas.exe/pagina01.html" rel="text" target="_self"><img src="imagens/thumb-hardware.png" alt="foto do curso de hardware"></a>
+    <a href="outras-paginas.exe/pagina02.html" rel="next" target="_self"><img src="imagens/thumb-html.png" alt="foto do curso de html"></a>
+    <a href="outras-paginas.exe/pagina03.html" rel="next" target="_self"><img src="imagens/thumb-js.png" alt="foto do curso de javascrip"></a>
+    <a href="outras-paginas.exe/pagina04.html" rel="next" target="_self"><img src="imagens/thumb-python.png" alt="foto do curso de python"></a>
+    </nav>
+
+    <button class="btn btn-animation"><img src="imagens/voltar.png" alt="">Clique aqui</img></button>
+
+</body>
+</html>
