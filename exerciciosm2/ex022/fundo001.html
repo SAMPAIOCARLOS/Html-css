@@ -4,27 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>teste de imagem de fundo</title>
+    <title>fonte de fundo</title>
     <style>
-        body{
-            background-image: url('imagens/wallpaper003.jpg');
-        }
-    .quadrado{
-           border: 3px solid black;
-           width: 250px;
-           height: 250px;
-           display: inline-block;
-           background-color: darkgray;
-           border-radius: 10px;
+        div.quadrado{
+            width: 200px;
+            height: 200px;
+            border: 3px solid black;
+            display: inline-block;
+            background-color: darkgrey;
         }
         div#q1{
-         background-color: skyblue;
+            background-color: chartreuse;
         }
         div#q2{
-          background-image: linear-gradient(to bottom, yellow, #ff0000);
+            background-image: linear-gradient(to top, #00ffc3, #73ff00);
         }
         div#q3{
-          background-image: url('imagens/pattern002.png')
+            width: 100px;
+            height: 100px;
+            background-image: url('imagens/pattern002.png');
+        }
+        div#q2:hover{
+            background-image: linear-gradient(to bottom, #0000ff, #ff0000, #ffff00);
+            cursor: pointer;
+        }
+        div#q3:hover{
+            height: 200px;
+            width: 200px;
+            background-image: url('imagens/pattern003.png');
+            cursor: pointer;
         }
     </style>
 </head>
@@ -38,6 +46,5 @@
     <div class="quadrado" id="q3">
 
     </div>
-    
 </body>
 </html>
