@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    height: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+header h1{
+    padding-top: 50px;
+    font-size: 4em; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+header a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.paragrafo{
+    padding-top: 60px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1.8em;
+}
+img{
+    background-attachment: fixed;
+}
