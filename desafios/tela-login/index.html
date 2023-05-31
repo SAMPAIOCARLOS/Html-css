@@ -33,18 +33,21 @@
             margin: 3px;
             
         }
-        button{
+        .input{
             width: 100%;
             padding: 8px;
             background-color: dodgerblue;
             border: none;
             border-radius: 8px;
         }
-        button:hover{
+        .input:hover{
             background-color: rgb(65, 156, 248);
             color:#fff;
             cursor: pointer;
             
+        }
+        .input{
+            font-weight: 600;
         }
     </style>
 </head>
@@ -53,11 +56,21 @@
         <form method="post" autocomplete="off">
             <h1>Login</h1>
 
-            <p><label for="iNome">Nome:</label> <input type="text" name="Nome" id="iNome" placeholder="Nome"></p>
+            <p>
+                <!-- <label for="iNome">Nome:</label> -->
 
-            <p><label for="isenha">Senha:</label><input type="password" name="senha" id="isenha" placeholder="Senha"></p>
+                 <input type="text" name="Nome" id="iNome" placeholder="Usuário" required minlength="10" maxlength="30">
+            </p>
 
-            <button>Enviar</button>
+            <p>
+                <!-- <label for="isenha">Senha:</label> -->
+
+                <input type="password" name="senha" id="isenha" placeholder="Senha" required minlength="8" maxlength="20">
+            </p>
+
+            <input type="submit" value="Enviar" class="input">
+<hr>
+            <input type="reset" value="Limpar" class="input">
         </form>
     
 </body>
