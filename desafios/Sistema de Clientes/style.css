@@ -1,0 +1,125 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/pexels-tommes-frites-13357691.jpg);
+
+}
+
+main{
+    background-color: rgb(207, 206, 206);
+    border-radius: 8px;
+    max-width: 850px;
+    min-height: 200px;
+}
+
+#h1{
+    background-color: rgb(5, 5, 164);
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+section{
+    /* background-color: aqua; */
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+
+input{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 4px;
+}
+
+.pequeno{
+    width: 100px;
+}
+
+.maior{
+    width: 200px;
+}
+
+#email{
+    width: 195px;
+}
+
+#cep{
+    width: 140px;
+}
+
+#div-comp{
+    margin-left: 60px;
+}
+
+#div-email{
+    margin-left: 10px;
+}
+
+#div-cep{
+    margin-left: 13px;
+}
+
+#div-rua{
+    margin-left: 24px;
+}
+
+#estado{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#cidade{
+    width: 113px;
+}
+
+#bairro{
+    width: 120px;
+}
+
+#rua{
+    width: 180px;
+}
+
+#numero{
+    width: 50px;
+}
+
+
+footer{
+    text-align: center;
+}
+
+button{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(5, 5, 164);
+    outline: none;
+    color: #ffffff;
+}
+
+footer > button{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}

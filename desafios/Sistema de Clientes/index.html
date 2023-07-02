@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="h1">
+            <h1>Sistema de Clientes</h1>
+        </div>
+
+        <form action="">
+            <div class="center">
+                <h3>Cadastro</h3>
+            </div>
+
+            <section>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Nome completo" class="maior">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf" placeholder="231.231.321-00" class="pequeno">
+                </div>
+                <br>
+                <div id="div-email">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Email Válido" class="maior">
+                    <label for="rg">RG:</label>
+                    <input type="text" id="rg" name="rg" placeholder="147.147.147-00" class="pequeno">
+                </div>
+                <br>
+                <div class="center">
+                    Sexo: <label for="M">Masculino</label>
+                    <input type="radio" id="M" name="M">
+                    <label for="F">Feminino</label>
+                    <input type="radio" id="F" name="F">
+                    <label for="outros">Outros</label>
+                    <input type="radio" name="outros" id="outros">
+                </div>
+                <br>
+                <div class="center">
+                    <label for="data">Data de Nascimento:</label>
+                    <input type="date" id="data" name="data">
+                </div>
+            </section>
+
+            <h2 class="center">Endereço</h2>
+
+            <section id="section2">
+
+                <div>
+                    <label for="estado">Estado:</label>
+                    <select name="estado" id="estado">
+                        <option value="" disabled selected><strong>Escolha sua Região</strong></option>
+                        <option value="">Acre</option>
+                        <option value="">Alagoas</option>
+                        <option value="">Amapá</option>
+                        <option value="">Amazonas</option>
+                        <option value="">Bahia</option>
+                        <option value="">Ceará</option>
+                        <option value="">Espírito Santo</option>
+                        <option value="">Goiás</option>
+                        <option value="">Maranhão</option>
+                        <option value="">Mato Grosso</option>
+                        <option value="">Mato Grosso do Sul</option>
+                        <option value="">Minas Gerais</option>
+                        <option value="">Pará</option>
+                        <option value="">Paraíba</option>
+                        <option value="">Paraná</option>
+                        <option value="">Pernambuco</option>
+                        <option value="">Piauí</option>
+                        <option value="">Rio de Janeiro</option>
+                        <optino value="">Rio Grande do Norte</optino>
+                        <optino value="">Rio Grande do Sul</optino>
+                        <optino value="">Rondônia</optino>
+                        <optino value="">Roraima</optino>
+                        <optino value="">Santa Catarina</optino>
+                        <optino value="">São Paulo</optino>
+                        <optino value="">Sergipe</optino>
+                        <option value="">Tocantins</option>
+                    </select>
+
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" name="cidade" id="cidade" placeholder="Cidade">
+                </div>
+<br>
+
+                <div id="div-cep">
+                    <label for="cep">CEP:</label>
+                    <input type="text" id="cep" name="cep" placeholder="21365-000">
+
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" id="bairro" name="bairro" placeholder="Bairro">
+                </div>
+<br>
+                <div id="div-rua">
+                    <label for="rua">Rua:</label>
+                    <input type="text" id="rua" name="rua" placeholder="Logradouro">
+
+                    <label for="numero">Número</label>
+                    <input type="text" id="numero" name="numero" placeholder="Número">
+                </div>
+<br>
+                <div id="div-comp">
+                    <label for="comp">Complemento:</label>
+                    <input type="text" id="comp" name="comp" placeholder="Andar, Apartamento, bloco">
+                </div>
+
+            </section>
+<br>
+            <footer>
+                <button type="submit">Enviar</button> 
+
+                <button type="reset">Limpar</button>
+                
+            </footer>
+        </form>
+    </main>
+</body>
+</html>
