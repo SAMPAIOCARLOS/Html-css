@@ -8,18 +8,19 @@ main{
     display: flex;
     width: 100vw;
     height: 100vh;
+    gap: 20px;
     
 }
 
 
 #login-left{
-    width: 50vw;
+    width: 48%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
 }
 
 #login-left > h1{
@@ -29,12 +30,13 @@ main{
 }
 
 #login-right{
-    width: 50vw;
+    width: 48%;
+    min-width: 200px;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
 
 }
 
